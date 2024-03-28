@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/*
+rgba(210, 53, 101, 0.12) 
+rgba(210, 53, 101, 1)
+*/
+
+.sidebar-transition {
+  transition: width 0.5s ease;
+}
+body{
+  overflow-y: hidden;
+}
+.path {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  list-style: none !important;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: -10px !important;
+  padding-left: 19px !important;
+  margin-top: 10px !important;
+}
+.icon {
+  background-color: rgba(210, 53, 101, 0.12);
+  padding: 5px;
+  border-radius: 7px;
+}
+.icon-team{
+  background-color: rgba(255, 204, 145, 0.16);
+  padding: 5px;
+  border-radius: 7px;
+}
+.icon-shop{
+  background-color: rgba(255, 204, 145, 0.16);
+  padding: 5px;
+  border-radius: 7px;
+}
+.menu-icon {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  width: 90%;
+  background-color: #494949;
+  margin-left:5%;
+  margin-top: 3%;
+  border-radius: 10px;
+}
+.wing-icon{
+  background-color: rgba(224, 20, 97, 0.39);
+  padding: 6px;
+  border-radius: 10px;
+  height: 35px;
+  width: 39px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.notification {
+  color: rgba(210, 53, 101, 1);
+  background-color: rgba(210, 53, 101, 0.1);
+  /* height: 21px; */
+  display: flex;
+  padding: 6px;
+  border-radius: 25px;
+  
+}
+.card-bg{
+  background-color: rgba(210, 53, 101, 1) ;
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #6c6b6d #ffffff;
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #dcdbdc;
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}
